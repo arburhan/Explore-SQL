@@ -1,0 +1,35 @@
+
+-- create
+CREATE TABLE EMPLOYEE (
+  empId int,
+  name varchar(15),
+  dept varchar(10), 
+  jdate datetime
+);
+
+-- insert
+INSERT INTO EMPLOYEE(empId,name,dept,jdate) VALUES (1, 'Clark', 'Sales','2024-12-16 00:00:00.000');
+INSERT INTO EMPLOYEE(empId,name,dept,jdate) VALUES (2, 'Dave', 'Accounting','2024-12-16 00:00:00.000');
+INSERT INTO EMPLOYEE(empId,name,dept,jdate) VALUES (3, 'Ava', 'Sales','2024-12-16 00:00:00.000');
+
+-- fetch 
+SELECT * FROM EMPLOYEE;
+GO
+
+SELECT cast(jdate as char(50))
+FROM EMPLOYEE;
+GO
+
+SELECT SysDateTime();
+GO
+
+SELECT datename(WeekDay,'2000/02/17');
+GO
+
+
+
+
+
+
+
+
