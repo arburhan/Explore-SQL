@@ -8,15 +8,18 @@ This repository contains various SQL scripts related to stored procedures, index
 
 ## Stored Procedures
 
-Stored procedures are a collection of SQL statements that can be executed as a single unit. They help in improving the performance and reusability of code.
+Stored procedures are a collection of SQL statements that can be executed as a single unit.
+They help in improving the performance and reusability of code.
 
 ## Indexing
 
-Indexing helps in optimizing the performance of SQL queries by allowing faster retrieval of records from the database.
+Indexing helps in optimizing the performance of SQL queries by allowing
+faster retrieval of records from the database.
 
 ## Viewing
 
-SQL views are virtual tables that provide a way to present data from one or more tables in a specific format or structure.
+SQL views are virtual tables that provide a way to present data from one or more
+tables in a specific format or structure.
 
 ## Files
 
